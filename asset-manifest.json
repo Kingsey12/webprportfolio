@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webprportfolio/static/css/main.7296362b.css",
+    "main.js": "/webprportfolio/static/js/main.22583ab0.js",
+    "index.html": "/webprportfolio/index.html",
+    "main.7296362b.css.map": "/webprportfolio/static/css/main.7296362b.css.map",
+    "main.22583ab0.js.map": "/webprportfolio/static/js/main.22583ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7296362b.css",
+    "static/js/main.22583ab0.js"
+  ]
+}
