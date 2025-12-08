@@ -80,8 +80,8 @@ function Contact() {
       <div className="card-text" style={{ marginTop: 16 }}>
         <strong>Contact Info</strong>
         <ul className="about-list" style={{ marginTop: 8 }}>
-          <li>Email: your_email@gachon.ac.kr</li>
-          <li>GitHub: https://github.com/your-github</li>
+          <li>Email: sayfillo@gachon.ac.kr</li>
+          <li>GitHub: https://github.com/Kingsey12</li>
         </ul>
       </div>
     </section>
