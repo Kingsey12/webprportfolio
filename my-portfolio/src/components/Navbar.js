@@ -1,13 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
         <div className="brand">
-          <span className="brand-dot" />
-          <span className="brand-text">Sayfullo · Portfolio</span>
+          <img src={logo} alt="Logo" className="brand-logo" />
+          <span className="brand-text">Khasanov Sayfillo · Portfolio</span>
         </div>
         <nav className="nav-links">
           <NavLink

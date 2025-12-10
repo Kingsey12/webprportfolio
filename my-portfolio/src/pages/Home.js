@@ -7,19 +7,19 @@ function Home() {
         <div className="avatar-circle">
           <img
             src={process.env.PUBLIC_URL + "/avatar.jpg"}
-            alt="Sayfullo profile"
+            alt="Sayfillo profile"
           />
         </div>
 
         <div className="profile-info">
-          <h2 className="profile-name">Sayfullo</h2>
+          <h2 className="profile-name">Sayfillo</h2>
           <p className="profile-sub">Computer Engineering Student</p>
           <p className="profile-sub">Gachon University</p>
         </div>
       </div>
       <h2 className="card-title">포트폴리오 소개</h2>
       <p className="card-text">
-        안녕하세요! 저는 가천대학교 컴퓨터공학부 학생 사이빌로(Sayfullo)입니다
+        안녕하세요! 저는 가천대학교 컴퓨터공학부 학생 사이빌로(Sayfillo)입니다
         (학번: 202339764). 이 사이트는 React 기반의 포트폴리오 프로젝트로,
         수업 과제로 제작되었습니다.
       </p>

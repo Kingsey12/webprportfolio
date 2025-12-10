@@ -1,25 +1,56 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import "./App.css"; // 기본 스타일
+import React, { useRef, useState } from "react";
+import "./App.css";
+import { LanguageProvider } from "./LanguageContext";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    setMenuOpen(false);
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="app-root">
-      <Navbar />
-      <main className="app-container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-    </div>
+    <LanguageProvider>
+      <div className="app">
+        <Header
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
+          scrollToSection={scrollToSection}
+          refs={{ homeRef, aboutRef, projectsRef, contactRef }}
+        />
+
+        <main>
+          <section ref={homeRef}>
+            <Hero scrollToSection={scrollToSection} aboutRef={aboutRef} />
+          </section>
+
+          <section ref={aboutRef}>
+            <About />
+          </section>
+
+          <section ref={projectsRef}>
+            <Projects />
+          </section>
+
+          <section ref={contactRef}>
+            <Contact />
+          </section>
+        </main>
+
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 }
 
