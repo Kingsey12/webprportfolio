@@ -6,7 +6,7 @@ function Home() {
       <div className="profile-header">
         <div className="avatar-circle">
           <img
-            src={process.env.PUBLIC_URL + "/avatar.jpg"}
+            src={process.env.PUBLIC_URL + "/avatar.png"}
             alt="Sayfillo profile"
           />
         </div>

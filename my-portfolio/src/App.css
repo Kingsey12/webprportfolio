@@ -34,7 +34,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: rgba(5, 8, 18, 0.4);
+  background: rgba(5, 8, 18, 0.0);
 }
 
 main {
