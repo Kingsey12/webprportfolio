@@ -39,6 +39,15 @@ export const translations = {
     project3Title: "Linux Practice & Report",
     project3Desc: "Comprehensive documentation of Linux system administration, shell scripting, and file system concepts.",
     
+    project4Title: "CampusEAT",
+    project4Desc: "Web/mobile application designed for Gachon University students to discover campus dining locations and menus.",
+    
+    project5Title: "SmartPantry",
+    project5Desc: "Inventory management system built with NestJS and SQL. Manages products, users, and orders with comprehensive tracking features.",
+    
+    project6Title: "Kiosk App V3",
+    project6Desc: "Restaurant kiosk application built with Java OOP principles. Features menu selection, order placement, and payment calculation.",
+    
     // Contact
     contactTitle: "Get In Touch",
     contactSubtitle: "Feel free to reach out!",
@@ -96,6 +105,15 @@ export const translations = {
     
     project3Title: "Linux 실습 및 보고서",
     project3Desc: "Linux 시스템 관리, 셸 스크립팅, 파일 시스템 개념에 대한 종합 문서.",
+    
+    project4Title: "CampusEAT",
+    project4Desc: "가천대학교 학생들을 위한 캠퍼스 내 식당 위치와 메뉴를 보여주는 웹/모바일 애플리케이션.",
+    
+    project5Title: "SmartPantry",
+    project5Desc: "NestJS와 SQL 기반의 재고 관리 시스템. 제품, 사용자, 주문을 종합적으로 관리하는 기능 제공.",
+    
+    project6Title: "Kiosk App V3",
+    project6Desc: "Java OOP 원칙으로 구축된 레스토랑 키오스크 애플리케이션. 메뉴 선택, 주문 접수, 결제 계산 기능 포함.",
     
     // Contact
     contactTitle: "연락하기",

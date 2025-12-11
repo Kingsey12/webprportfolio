@@ -27,6 +27,27 @@ function Projects() {
       tech: ["Linux", "Bash", "Shell Scripting"],
       image: process.env.PUBLIC_URL + "/images/project-linux.png",
     },
+    {
+      id: 4,
+      title: t('project4Title'),
+      description: t('project4Desc'),
+      tech: ["React", "Node.js", "MongoDB", "Express"],
+      image: process.env.PUBLIC_URL + "/images/project-campuseat.png",
+    },
+    {
+      id: 5,
+      title: t('project5Title'),
+      description: t('project5Desc'),
+      tech: ["NestJS", "TypeScript", "SQL", "REST API"],
+      image: process.env.PUBLIC_URL + "/images/project-smartpantry.png",
+    },
+    {
+      id: 6,
+      title: t('project6Title'),
+      description: t('project6Desc'),
+      tech: ["Java", "OOP", "Swing"],
+      image: process.env.PUBLIC_URL + "/images/project-kiosk.png",
+    },
   ];
 
   return (
